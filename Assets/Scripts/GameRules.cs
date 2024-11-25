@@ -50,14 +50,20 @@ public class GameRules : MonoBehaviour
             {
                 rb.AddForce(Vector2.up * forceAmount, ForceMode2D.Impulse);
             }
-        }
 
-        // Start the death delay coroutine
-        StartCoroutine(DelayDeath(player));
+            // Start the death delay coroutine
+            StartCoroutine(DelayDeath(player));
+        }
     }
 
     public void PlayerDied(GameObject player)
     {
+        if (!player.CompareTag("Player"))
+        {
+            Debug.Log("Ignored death for non-player object: " + player.name);
+            return;
+        }
+
         Debug.Log("Player died: " + player.name);
 
         // Increment score for the opposing player
@@ -110,7 +116,7 @@ public class GameRules : MonoBehaviour
         // Display the victory message
         victoryText.text = winner.name + " wins the game!";
         victoryText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(2); // Wait for 1 second before restarting the scene
+        yield return new WaitForSeconds(2); // Wait for 2 seconds before restarting the scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name); // Restart the scene
     }
 
@@ -125,18 +131,6 @@ public class GameRules : MonoBehaviour
         rb.angularVelocity = 0;
     }
 
-    IEnumerator DelayDeath(GameObject player)
-    {
-        yield return new WaitForSeconds(2.0f); // Wait for 2 seconds before marking the player as dead
-        player.SetActive(false);
-        PlayerDied(player); // Player death
-    }
-
-    private void StartNewRound()
-    {
-        roundStartTime = Time.time; // Record the start time of the round
-    }
-
     private void LogRoundDuration()
     {
         float roundDuration = Time.time - roundStartTime; // Calculate the round duration
@@ -145,5 +139,17 @@ public class GameRules : MonoBehaviour
             { "RoundDuration", roundDuration }
         };
         Abertay.Analytics.AnalyticsManager.SendCustomEvent("RoundEnded", parameters); // Log the round duration
+    }
+
+    private void StartNewRound()
+    {
+        roundStartTime = Time.time; // Record the start time of the round
+    }
+
+    private IEnumerator DelayDeath(GameObject player)
+    {
+        yield return new WaitForSeconds(2.0f); // Wait for 2 seconds before marking the player as dead
+        player.SetActive(false);
+        PlayerDied(player); // Player death
     }
 }

@@ -33,9 +33,13 @@ public class PlayerTwoController : MonoBehaviour
 
     void Update()
     {
+        Debug.Log("Checking GameManager.Instance: " + (GameManager.Instance != null));
+        Debug.Log("Checking playerRigidbody: " + (playerRigidbody != null));
+        Debug.Log("Checking firePoint: " + (firePoint != null));
+
         HandleAiming();
 
-        if (GameManager.Instance.AreInputsAllowed())
+        if (GameManager.Instance != null && GameManager.Instance.AreInputsAllowed())
         {
             if (Input.GetKeyDown(KeyCode.Return) && Time.time >= lastShotTime + shootCooldown)
             {
@@ -52,6 +56,7 @@ public class PlayerTwoController : MonoBehaviour
 
         //ApplyRandomForces();
     }
+
 
     void HandleAiming()
     {

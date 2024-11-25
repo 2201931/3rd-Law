@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Practice.unity
+    guid: f60e4104a4b1d9847ae58f7c8680f100
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
