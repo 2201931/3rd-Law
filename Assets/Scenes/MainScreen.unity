@@ -759,11 +759,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4698549127059117742, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
       propertyPath: endForceMagnitude
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4698549127059117742, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
       propertyPath: recoilForceMagnitude
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4698549127059117742, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: recoilTorqueMagnitude
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 5279133954728288648, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
       propertyPath: m_FlipX
@@ -868,6 +872,30 @@ PrefabInstance:
     - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 7415128621571678117, guid: d9099d3f85c24a04d89eb4e4d535739d, type: 3}
       propertyPath: m_ConstrainProportionsScale
@@ -1775,8 +1803,8 @@ MonoBehaviour:
   aimSpeed: 200
   maxRotationAngle: 60
   recoilForceMagnitude: 50
-  recoilTorqueMagnitude: 0.05
-  endForceMagnitude: 6
+  recoilTorqueMagnitude: 0.02
+  endForceMagnitude: 7
   randomForceMagnitude: 0.1
   rightCorner: {fileID: 184554859}
   shootCooldown: 1

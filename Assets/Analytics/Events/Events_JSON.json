@@ -3359,5 +3359,637 @@
       "totalAngleTraversed": 101.6264,
       "proportionalForce": 5.08132029
     }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:11:25",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "0927d77f7412d602528541beae90fc0e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:11:25",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "11eea073ffb936c0183478224ac75d87",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 60.0,
+      "proportionalForce": 3.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:11:26",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "22cecd4e2a4913548d045632243674cf",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:11:30",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "cde09df6245949b22556405538eba5a9",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -7.12685966
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:11:30",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "a9a3dc137942d565ef66fbef4aaf85ad",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 52.87314,
+      "proportionalForce": 2.643657
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:12",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "4dd1bea2ffe05b2eb518f34dbf7ebbc9",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:12",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "4dd1bea2ffe05b2eb518f34dbf7ebbc9",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 27.3356228
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:20",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "2e9ff5de16a6a6ae0ef61c481d7d95fa",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 44.7439041
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:20",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "2547c6d2df91f02f53a442b078d59426",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 15.2560959,
+      "proportionalForce": 0.7628048
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "e963592755753c544db1d7f2764b6406",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "e963592755753c544db1d7f2764b6406",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 36.0930519
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:22",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "085f45ec878b2dab49f7617d1c9bb441",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -0.5550908
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:22",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "085f45ec878b2dab49f7617d1c9bb441",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -31.0514622
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:23",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "49a99c3d0531ab8323c48bccf58c7947",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -55.0391121
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:23",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "2d7ee57e3354993586406a0ca776062a",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 4.960888,
+      "proportionalForce": 0.2480444
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:23",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "49a99c3d0531ab8323c48bccf58c7947",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:23",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "2d7ee57e3354993586406a0ca776062a",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 0.0,
+      "proportionalForce": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:24",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "c96258af7f5e24c89b979383d85ad7bd",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:24",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "c96258af7f5e24c89b979383d85ad7bd",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -36.19951
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:24",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "fd4b7cfaa8a6bfd01b7fa2e84c4fabef",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 23.8004913,
+      "proportionalForce": 1.19002461
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:14:26",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "547781b338af36993abb8a47d03a53d6",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:30:48",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "40ad993dd42449eebe1eea8ec22b906d",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:30:48",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "40ad993dd42449eebe1eea8ec22b906d",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -36.7875481
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:30:49",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "e838a3c607792f4510757c22b1fbfe72",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 15.9611187
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 13:30:50",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "00e356a63bfd6d88fc5c9599c188e50b",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 41.5096855
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:28",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "d91f7120477862184bf9a30c37968e08",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:28",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "d91f7120477862184bf9a30c37968e08",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 22.2351589
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:28",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "d91f7120477862184bf9a30c37968e08",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -17.9226818
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:29",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "0f7a928d1f468dd2b576c8cf1dc94cec",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 15.7553978
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:29",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "0f7a928d1f468dd2b576c8cf1dc94cec",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -33.8138771
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:30",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "364c284b0ec3699b741abef16dab420e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 14.1033716
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:30",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "364c284b0ec3699b741abef16dab420e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -38.5256081
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:30",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "364c284b0ec3699b741abef16dab420e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -0.128053918
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:31",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "96f6b805cbdc401af68b2ddc00138725",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -32.225296
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:09:35",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "600f666c01605263f02d71c21e95c50b",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 1.55860353
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:43",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "b7c8d6dd008be728f366781af070d83b",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:44",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "92e5b56ecae95df4895a80b95012f842",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -38.35193
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:44",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "9b1ff34e88c4ef096fa0996c3df0face",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 21.6480713,
+      "proportionalForce": 1.26280415
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:44",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "92e5b56ecae95df4895a80b95012f842",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:45",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "b545df6c7dd2624756b03e07060b7b6e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -26.4168148
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:45",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "b545df6c7dd2624756b03e07060b7b6e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:10:45",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "b545df6c7dd2624756b03e07060b7b6e",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 37.4918556
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:15:31",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "d90c6bab2bd1abd5c8a229548f74d972",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:15:31",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "d90c6bab2bd1abd5c8a229548f74d972",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 17.8474216
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "6472eee8e75d0484b7926800415806da",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "6472eee8e75d0484b7926800415806da",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "6472eee8e75d0484b7926800415806da",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 41.6399231
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:21",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "eeff2dd8b39a7bb994db502ce810aa8f",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 18.3600769,
+      "proportionalForce": 1.07100451
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:21",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "6472eee8e75d0484b7926800415806da",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 60.0
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:22",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "7354919d13cdec773c1de4d22f334985",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 23.2397118
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:22",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "7354919d13cdec773c1de4d22f334985",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -28.2096062
+    }
+  },
+  {
+    "eventTimestamp": "19/11/2024 14:20:23",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "ad461683d2c2b1e58053b23f12611313",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 38.9336739
+    }
   }
 ]
