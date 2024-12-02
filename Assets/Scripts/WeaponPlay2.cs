@@ -39,11 +39,17 @@ public class PlayerTwoController : MonoBehaviour
 
         HandleAiming();
 
-        if (GameManager.Instance != null && GameManager.Instance.AreInputsAllowed())
+        if (GameManager.Instance.AreInputsAllowed())
         {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                DataCollector.Instance.P2_ButtonPressesPerShot++;
+            }
             if (Input.GetKeyDown(KeyCode.Return) && Time.time >= lastShotTime + shootCooldown)
             {
                 Shoot();
+
+                DataCollector.Instance.P2_ButtonPressesPerShot = DataCollector.Instance.P2_ButtonPressesPerShot / DataCollector.Instance.P2_ShotsFired;
                 ApplyRecoil();
                 lastShotTime = Time.time; // Update the last shot time
             }
@@ -53,6 +59,14 @@ public class PlayerTwoController : MonoBehaviour
                 hasAppliedRecoil = false;
             }
         }
+
+        float aV = playerRigidbody.angularVelocity;
+        DataCollector.Instance.P2_TotalSpeed += playerRigidbody.angularVelocity * Time.deltaTime;
+        if (aV > DataCollector.Instance.P2_MaxRotationSpeed)
+        {
+            DataCollector.Instance.P2_MaxRotationSpeed = aV;
+        }
+        DataCollector.Instance.P2_AverageSpeed = DataCollector.Instance.P2_TotalSpeed / DataCollector.Instance.matchTime;
 
         //ApplyRandomForces();
     }
@@ -117,7 +131,9 @@ public class PlayerTwoController : MonoBehaviour
         float torqueDirection = isMovingClockwise ? -1f : 1f;
         if (GameManager.Instance.AreInputsAllowed())
         {
-            playerRigidbody.AddTorque(proportionalForce * torqueDirection, ForceMode2D.Impulse);
+            float finalTorque = proportionalForce * torqueDirection;
+            playerRigidbody.AddTorque(finalTorque, ForceMode2D.Impulse);
+            DataCollector.Instance.P2_TotalTorqueApplied += Mathf.Abs(finalTorque);
         }
         hasAppliedEndTorque = true;
         isRotating = false;
@@ -135,6 +151,7 @@ public class PlayerTwoController : MonoBehaviour
 
     void Shoot()
     {
+        DataCollector.Instance.P2_ShotsFired++;
         Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
 
         // Create parameters for the custom event

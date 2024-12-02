@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System.Collections.Generic;
+using Abertay.Analytics;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,6 +29,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        DataCollector.Instance = new DataCollector();
     }
 
     void Start()
@@ -39,6 +42,17 @@ public class GameManager : MonoBehaviour
         // Deactivate the menu at the start of the game
         menu.SetActive(false);
         StartCoroutine(StartCountdown());
+    }
+
+    private void Update()
+    {
+        DataCollector.Instance.matchTime += Time.deltaTime;
+    }
+
+    public void RoundComplete()
+    {
+        DataCollector.Instance.Log("RoundComplete");
+        DataCollector.Instance.Reset();
     }
 
     IEnumerator StartCountdown()
@@ -64,6 +78,9 @@ public class GameManager : MonoBehaviour
 
         inputsAllowed = true; // Enable inputs after countdown
         StartCoroutine(ShrinkAndMove());
+
+        //This is where the match starts
+        DataCollector.Instance.matchTime = 0.0f;
 
         isCountdownRunning = false; // Reset the flag
     }

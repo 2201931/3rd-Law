@@ -36,9 +36,15 @@ public class WeaponPlay : MonoBehaviour
 
         if (GameManager.Instance.AreInputsAllowed())
         {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                DataCollector.Instance.P1_ButtonPressesPerShot++;
+            }
             if (Input.GetKeyDown(KeyCode.Space) && Time.time >= lastShotTime + shootCooldown)
             {
+
                 Shoot();
+                DataCollector.Instance.P1_ButtonPressesPerShot = DataCollector.Instance.P1_ButtonPressesPerShot / DataCollector.Instance.P1_ShotsFired;
                 ApplyRecoil();
                 lastShotTime = Time.time; // Update the last shot time
             }
@@ -49,6 +55,13 @@ public class WeaponPlay : MonoBehaviour
             }
         }
 
+        float aV = playerRigidbody.angularVelocity;
+        DataCollector.Instance.P1_TotalSpeed += playerRigidbody.angularVelocity * Time.deltaTime;
+        if (aV > DataCollector.Instance.P1_MaxRotationSpeed)
+        {
+            DataCollector.Instance.P1_MaxRotationSpeed = aV;
+        }
+        DataCollector.Instance.P1_AverageSpeed = DataCollector.Instance.P2_TotalSpeed / DataCollector.Instance.matchTime;
         //ApplyRandomForces();
     }
 
@@ -110,7 +123,9 @@ public class WeaponPlay : MonoBehaviour
         float torqueDirection = isMovingClockwise ? 1f : -1f;
         if (GameManager.Instance.AreInputsAllowed())
         {
-            playerRigidbody.AddTorque(proportionalForce * torqueDirection, ForceMode2D.Impulse);
+            float finalTorque = proportionalForce * torqueDirection;
+            playerRigidbody.AddTorque(finalTorque, ForceMode2D.Impulse);
+            DataCollector.Instance.P1_TotalTorqueApplied += Mathf.Abs(finalTorque);
         }
         hasAppliedEndTorque = true;
         isRotating = false;
@@ -128,6 +143,7 @@ public class WeaponPlay : MonoBehaviour
 
     void Shoot()
     {
+        DataCollector.Instance.P1_ShotsFired++;
         Instantiate(BulletPrefab, FirePoint.position, FirePoint.rotation);
 
         // Create parameters for the custom event

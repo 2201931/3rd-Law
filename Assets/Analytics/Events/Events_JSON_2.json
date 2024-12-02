@@ -1,0 +1,87 @@
+[
+  {
+    "eventTimestamp": "2/12/2024 14:01:03",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "4c14570eb314debfd526efb2878713f9",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:08",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "c88142965412230f2fb5e4f3cbbfc709",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:08",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "c88142965412230f2fb5e4f3cbbfc709",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 0.0
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:08",
+    "userID": "NULL",
+    "eventName": "EndTorqueApplied",
+    "eventUUID": "dca0d759921fe1dbed2903af5b068ac5",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "EndTorqueApplied",
+      "totalAngleTraversed": 60.0,
+      "proportionalForce": 3.5
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:08",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "c88142965412230f2fb5e4f3cbbfc709",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 60.0
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:09",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "3211361e2d64a4f1aedc04924ff34700",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player1",
+      "event": "WeaponAimed",
+      "initialRotationAngle": 22.242239
+    }
+  },
+  {
+    "eventTimestamp": "2/12/2024 15:15:09",
+    "userID": "NULL",
+    "eventName": "WeaponAimed",
+    "eventUUID": "3211361e2d64a4f1aedc04924ff34700",
+    "GA_Value": 0.0,
+    "eventParams": {
+      "player": "Player2",
+      "event": "WeaponAimed",
+      "initialRotationAngle": -5.5851965
+    }
+  }
+]

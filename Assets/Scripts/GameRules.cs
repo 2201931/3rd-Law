@@ -41,7 +41,15 @@ public class GameRules : MonoBehaviour
     {
         // Destroy the bullet after it hits a player
         Destroy(bullet);
-
+        if (player == P1)
+        {
+            DataCollector.Instance.WinnerPlayerID = 2;
+        }
+        else
+        {
+            DataCollector.Instance.WinnerPlayerID = 1;
+        }
+        gameManager.RoundComplete();
         // Add force to the player if it has the tag "Player"
         if (player.CompareTag("Player"))
         {
@@ -79,7 +87,7 @@ public class GameRules : MonoBehaviour
         }
 
         // Log the round duration
-        LogRoundDuration();
+        //LogRoundDuration();
 
         // Respawn both players
         Respawn(P1, P1Spawn);
